@@ -1,0 +1,162 @@
+/* Atualização de estilos CSS para um design minimalista */
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fundo mais claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+}
+
+/* Estilo para o contêiner principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    border-radius: 10px;
+}
+
+/* Estilo para os títulos de seção */
+h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Estilo para o texto principal */
+p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px; /* Mais espaçamento inferior */
+}
+
+/* Estilo para os links */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização do carrossel para os projetos do GitHub */
+.slick-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    flex: 0 0 auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Sutil sombra para os cards */
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 14px; /* Reduzindo o tamanho da fonte das descrições */
+    height: 100px; /* Limitando a altura do card para mostrar um máximo de 3-4 linhas de descrição */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Adicionando um botão "Ver mais" para expandir a descrição completa */
+.show-more-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.show-more-button a {
+    color: black;
+    text-decoration: none;
+}
+
+.show-more-button a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a imagem do perfil */
+.profile img {
+    max-width: 150px; /* Aumentando um pouco o tamanho da imagem */
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+/* Estilo para as informações pessoais */
+.profile-info h3 {
+    font-size: 1.4rem; /* Um pouco maior */
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px; /* Mais espaçamento inferior */
+}
+
+/* Personalização das cores */
+
+/* Fundo principal em um tom mais claro */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Cabeçalho em um tom escuro */
+header {
+    background-color: #f0f0f0;
+}
+
+/* Cor do link alterada */
+a {
+    color: white;
+}
+
+/* Cor de destaque para o título da seção */
+h2 {
+    color: #333; /* Cinza escuro */
+}
+
+/* Cor de fundo dos cards do carrossel */
+.project-card {
+    background-color: gray; /* Cinza */
+}
+
+/* Cor de fundo do botão "Ver mais" */
+.show-more-button a {
+    color: #333; /* Cinza escuro */
+}
