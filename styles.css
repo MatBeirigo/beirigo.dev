@@ -18,7 +18,7 @@ header {
 h1 {
     font-size: 2rem;
     margin: 0;
-    color: #fff;
+    color: #333;
 }
 
 /* Estilo para o contêiner principal */
@@ -34,7 +34,7 @@ main {
 /* Estilo para os títulos de seção */
 h2 {
     font-size: 1.5rem;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #333; /* Cor do destaque */
     padding-bottom: 10px;
     margin-top: 20px;
     color: #333;
@@ -49,7 +49,7 @@ p {
 
 /* Estilo para os links */
 a {
-    color: black;
+    color: #333; /* Cor do destaque */
     text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ a:hover {
 /* Estilo para a imagem do perfil */
 .profile img {
     max-width: 150px; /* Aumentando um pouco o tamanho da imagem */
-    border-radius: 50%;
+    border-radius: 5%;
     margin-right: 20px;
     border: 1px solid black;
 }
@@ -159,4 +159,35 @@ h2 {
 /* Cor de fundo do botão "Ver mais" */
 .show-more-button a {
     color: #333; /* Cinza escuro */
+}
+
+/* Estilo para o contêiner do perfil */
+.profile {
+    display: flex; /* Usando flexbox para posicionamento lado a lado */
+    align-items: center; /* Centralizando verticalmente */
+    margin-bottom: 20px;
+}
+
+/* Estilo para a imagem do perfil */
+.profile img {
+    max-width: 150px; /* Aumentando um pouco o tamanho da imagem */
+    /* border-radius: 50%; */
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+/* Estilo para as informações pessoais */
+.profile-info {
+    flex: 1; /* Ocupa todo o espaço restante */
+}
+
+.profile-info h3 {
+    font-size: 1.4rem; /* Um pouco maior */
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px; /* Mais espaçamento inferior */
 }
